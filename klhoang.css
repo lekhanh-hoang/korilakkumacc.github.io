@@ -167,6 +167,7 @@ table {
     border: 2px solid #B69185;
     border-collapse: collapse;
     font-size: 120%;
+    letter-spacing: 1px;
 }
 
 
@@ -174,7 +175,7 @@ td {
     padding: 0.5em;
     border: 2px solid #B69185;
     text-align: center;
-        font-size: 120%;
+    font-size: 120%;
 }
 
 th {
@@ -182,7 +183,8 @@ th {
     border: 2px solid #B69185;
     text-align: center;
     font-size: 120%;
-
+    letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 #careimage {
