@@ -1,0 +1,242 @@
+body {
+    background-color: #FFFFFF;
+    color: #B69185;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.header-icon {
+    width: 65px;
+    height: auto;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+header {
+    background-color: #F7D6DD;
+    color: #B69185;
+    background-repeat: no-repeat;
+    background-position: top right;
+    text-align: center;
+    font-size: 150%;
+    padding: 1em 1em;
+    
+}
+
+header a:link {
+    text-decoration: none;
+    color:#B69185;
+}
+
+header a:visited {
+    text-decoration: none;
+    color: #B69185;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #F19DB4;
+}
+
+
+h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    letter-spacing: 2px;
+
+}
+
+nav {
+    background-color: #FFF6E9;
+    display: flex;
+    padding: 1em;
+    font-size: 120%;
+    justify-content: center;
+    letter-spacing: 1.5px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 5em;
+    margin: 0;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+nav a:link {
+    color: #B69185;
+}
+
+nav a:visited {
+    color: #B69185;
+}
+
+nav a:hover {
+    color: #F19DB4;
+}
+
+main {
+    background-color: #F7D6DD;
+    padding: 1px 20px 20px 20px;
+    display: block;
+    overflow: auto;
+}
+
+p {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    letter-spacing: 1.5px;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #F19DB4;
+}
+
+p a:link {
+    color: #F19DB4;
+}
+
+p a:visited {
+    color: #F19DB4;
+}
+
+h1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    letter-spacing: 1.5px;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    letter-spacing: 2px;
+    color: #B69185; 
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    letter-spacing: 1px;
+    background-color: #F7D6DD;
+    padding: 2em;
+}
+
+#homeimage {
+    background-image: url('smoothie.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 30%;
+    height: 100vh;
+}
+
+
+.text-side {
+    background-color: #F7D6DD;
+    width: 70%;
+    padding: 2em;
+    color: #B69185;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+.split-layout {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+table {
+    text-align: left;
+    border: 2px solid #B69185;
+    border-collapse: collapse;
+    font-size: 120%;
+}
+
+
+td {
+    padding: 0.5em;
+    border: 2px solid #B69185;
+    text-align: center;
+        font-size: 120%;
+}
+
+th {
+    padding: 0.5em;
+    border: 2px solid #B69185;
+    text-align: center;
+    font-size: 120%;
+
+}
+
+#careimage {
+  background-image: url("plush.png");
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vh;
+  height: 300px;
+}
+
+ form {
+    width: 60%;
+    max-width: 35em;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 7em 1fr;
+    font-size: 150%;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#contactimage {
+  background-image: url("korihug.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vh;
+  height: 300px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.video-center {
+  max-width: 100%;
+  height: auto;
+}
+
+input[type="submit"] {
+    background-color: #F19DB4;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 100%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
