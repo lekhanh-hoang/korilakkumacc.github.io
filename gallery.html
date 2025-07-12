@@ -27,8 +27,41 @@
             </ul>
         </nav>
 
-        <main>
+
+        <main class="gallery-container">
+            <div class="body-wrapper">
+            <p class="intro-text">
+            <h2><i>&#9825; korilakkuma plush gallery! &#9825;</i></h2>
+            </p>
+
+            <div id="display-area">
+            <img id="main-image" src="plush1.png" alt="korilakkuma holding a bunny wearing a flower crown!" />
+            <p id="image-caption">korilakkuma holding a bunny wearing a flower crown!</p>
+            </div>
+            </div>
+
+            <ul id="thumbnails">
+            <li><img src="plush1.png" alt="Plushie 1" onclick="showImage('plush1.png', 'korilakkuma holding a bunny wearing a flower crown!')"></li>
+            <li><img src="plush2.png" alt="Plushie 2" onclick="showImage('plush2.png', 'korilakkuma in a paris inspired costume!')"></li>
+            <li><img src="plush3.png" alt="Plushie 3" onclick="showImage('plush3.png', 'korilakkuma as an angel!')"></li>
+            <li><img src="plush4.png" alt="Plushie 4" onclick="showImage('plush4.png', 'korilakkuma in a bunny costume holding her bunny friend!')"></li>
+            <li><img src="plush5.png" alt="Plushie 5" onclick="showImage('plush5.png', 'korilakkuma as a sleeping angel!')"></li>
+            <li><img src="plush6.png" alt="Plushie 6" onclick="showImage('plush6.png', 'korilakkuma in pink fur with lots of bows!')"></li>
+            <li><img src="plush7.png" alt="Plushie 7" onclick="showImage('plush7.png', 'korilakkuma with her friend chairoikoguma in a cherry costume!')"></li>
+            <li><img src="plush8.png" alt="Plushie 8" onclick="showImage('plush8.png', 'korilakkuma with her bunny hat!')"></li>
+
+            </ul>
+            
         </main>
+
+
+        <script>
+            function showImage(imagePath, caption) {
+            document.getElementById("main-image").src = imagePath;
+            document.getElementById("image-caption").textContent = caption;
+            document.getElementById("main-image").alt = caption;
+            }
+        </script>
 
         <footer>
             <small><i>This website is a fan-made project created for educational purposes only. Rilakkuma and Korilakkuma are &copy; San-X Co., Ltd. No copyright infringement is intended.</i></small><br>
